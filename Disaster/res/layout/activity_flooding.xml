@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#FF3232"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+        <Button
+            android:id="@+id/guidelines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Guidelines"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/firstaid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="First Aid"
+            android:textSize="10dp" />
+        
+         <Button
+            android:id="@+id/redcross"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Red Cross"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- Put image and number here -->
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:src="@drawable/flood" />
+
+  
+
+            <TextView
+                android:id="@+id/eq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BEFORE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            
+            
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    	    <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:id="@+id/beq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Be prepared to evacuate to higher ground at a moment's notice with your emergency kit."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/beq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Check with your local emergency management agency, real estate agent oor insurance agent about whether your property i located in a designated flood plain."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            
+            <TextView
+                android:id="@+id/beq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Turn off the power and water mains."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+			
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+ 
+            
+            <TextView
+                android:id="@+id/beq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DURING"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            
+             <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+           
+            
+            <TextView
+                android:id="@+id/beq6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Stay away from flood waters. Just six inches of fast-flowing water can knock you over and two feet will float a car."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                android:textSize="20dp"/>
+            
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/beq7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Continue listening to local area radio or TV stations for updates and possible warnings."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                android:textSize="20dp"/>
+            
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            
+            <TextView
+                android:id="@+id/beq7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Flood water may be contaminated with seawage. Aoid all contact with it."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                android:textSize="20dp"/>
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/beq8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RETURNING HOME- BEFORE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            
+            <TextView
+                android:id="@+id/beq9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Make sure local authorities have declared your area safe."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+             
+   
+            
+            <TextView
+                android:id="@+id/beq10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Find out if local medical facilities are open and if emergency services are functioning again."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            
+            <TextView
+                android:id="@+id/beq11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Bring cash and supplies such as flashlights, batteries, bottled water and nonperishable foods in case utilities are out."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                android:textSize="20dp"/>
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/beq12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Before entering you home, check for looad power lines, damage gaas lines, foundation cracks or other damage, including sagging ceilings and floors."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+ 
+            <TextView
+                android:id="@+id/beq13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. If you smell natural or propane gas or hear a hissing noise, leave immediately and call the fire department."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+           
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/beq14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. If power lines are down outside your home, do not step in puddles or standing water."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                android:textSize="20dp"/>
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+  
+            
+            <TextView
+                android:id="@+id/beq15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Floodwater may be contaminated with sewage. Avoid contact and dispose of any food that may ahve come in contact with it."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/beq10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RETURNING HOME- CLEANUP"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            
+            
+            <TextView
+                android:id="@+id/beq10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Throw out all food, beverages and medicine exposed to flood waters and mud."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+
+ <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#FF3232"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+      
+
+        <Button
+            android:id="@+id/guidelines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Guidelines"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/firstaid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="First Aid"
+            android:textSize="10dp" />
+        
+         <Button
+            android:id="@+id/redcross"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Red Cross"
+            android:textSize="10dp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:src="@drawable/guidelines" />
+
+
+            <TextView
+                android:id="@+id/textViewa12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/textViewb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/earthquake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earthquake"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+           <TextView
+        		android:id="@+id/line2"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+            <TextView
+                android:id="@+id/textViewx12c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/fire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textViewv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+             <TextView
+        		android:id="@+id/line3"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+             
+              <TextView
+                android:id="@+id/textViewx1x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/flooding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flooding"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+			
+             <TextView
+        		android:id="@+id/line4"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+
+              <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+              
+            <TextView
+                android:id="@+id/foodsafety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food safety"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+			 <TextView
+        		android:id="@+id/line5"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+
+			  <TextView
+                android:id="@+id/textViewx1c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:id="@+id/landslide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landslide"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+			 <TextView
+        		android:id="@+id/line6"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+			 
+			  <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power outage"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            
+            
+            <TextView
+                android:id="@+id/textView2278"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            	 <TextView
+        		android:id="@+id/line7"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+            	 
+            	  <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/tornado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tornado"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            
+            
+            <TextView
+                android:id="@+id/textView222s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+             <TextView
+        		android:id="@+id/line8"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+             
+              <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/volcano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volcano Eruption"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            
+             <TextView
+        		android:id="@+id/line9"
+        		android:layout_width="match_parent"
+        		android:layout_height="1dp" />
+              <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+               <TextView
+                android:id="@+id/textViewx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+               
+          
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

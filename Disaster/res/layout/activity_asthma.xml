@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#FF3232"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+        <Button
+            android:id="@+id/guidelines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Guidelines"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/firstaid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="First Aid"
+            android:textSize="10dp" />
+        
+          <Button
+            android:id="@+id/redcross"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Red Cross"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- Put image and number here -->
+            
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:src="@drawable/asthma" />
+
+              <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+             
+            <TextView
+                android:id="@+id/eq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Help the person sit in a comfortable position and take their medication."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/compressor" />
+            
+             <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            
+         
+            <TextView
+                android:id="@+id/beq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Reassure the person. If the attack becomes severe, they don’t have their medication or they don’t improve with medication, call 117 or get someone else to do it."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             
+             <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            
+            
+              
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

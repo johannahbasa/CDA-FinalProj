@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.disaster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Guidelines"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Firstaid"
+            android:label="@string/title_activity_firstaid" >
+        </activity>
+        <activity
+            android:name=".Earthquake"
+            android:label="@string/title_activity_earthquake" >
+        </activity>
+        <activity
+            android:name=".Fire"
+            android:label="@string/title_activity_fire" >
+        </activity>
+        <activity
+            android:name=".Flooding"
+            android:label="@string/title_activity_flooding" >
+        </activity>
+        <activity
+            android:name=".Foodsafety"
+            android:label="@string/title_activity_foodsafety" >
+        </activity>
+        <activity
+            android:name=".Landslide"
+            android:label="@string/title_activity_landslide" >
+        </activity>
+        <activity
+            android:name=".Poweroutrage"
+            android:label="@string/title_activity_poweroutrage" >
+        </activity>
+        <activity
+            android:name=".Tornado"
+            android:label="@string/title_activity_tornado" >
+        </activity>
+        <activity
+            android:name=".Volcano"
+            android:label="@string/title_activity_volcano" >
+        </activity>
+        <activity
+            android:name=".Allergies"
+            android:label="@string/title_activity_allergies" >
+        </activity>
+        <activity
+            android:name=".Asthma"
+            android:label="@string/title_activity_asthma" >
+        </activity>
+        <activity
+            android:name=".Bleeding"
+            android:label="@string/title_activity_bleeding" >
+        </activity>
+        <activity
+            android:name=".Brokenbone"
+            android:label="@string/title_activity_brokenbone" >
+        </activity>
+        <activity
+            android:name=".Burns"
+            android:label="@string/title_activity_burns" >
+        </activity>
+        <activity
+            android:name=".Choking"
+            android:label="@string/title_activity_choking" >
+        </activity>
+        <activity
+            android:name=".Diabetic"
+            android:label="@string/title_activity_diabetic" >
+        </activity>
+        <activity
+            android:name=".Distress"
+            android:label="@string/title_activity_distress" >
+        </activity>
+        <activity
+            android:name=".Heartattack"
+            android:label="@string/title_activity_heartattack" >
+        </activity>
+        <activity
+            android:name=".Headinjury"
+            android:label="@string/title_activity_headinjury" >
+        </activity>
+        <activity
+            android:name=".Heatstroke"
+            android:label="@string/title_activity_heatstroke" >
+        </activity>
+        <activity
+            android:name=".Hypothermia"
+            android:label="@string/title_activity_hypothermia" >
+        </activity>
+        <activity
+            android:name=".Meningitis"
+            android:label="@string/title_activity_meningitis" >
+        </activity>
+        <activity
+            android:name=".Seizure"
+            android:label="@string/title_activity_seizure" >
+        </activity>
+        <activity
+            android:name=".Shock"
+            android:label="@string/title_activity_shock" >
+        </activity>
+        <activity
+            android:name=".Stings"
+            android:label="@string/title_activity_stings" >
+        </activity>
+        <activity
+            android:name=".Stroke"
+            android:label="@string/title_activity_stroke" >
+        </activity>
+        <activity
+            android:name=".Redcross"
+            android:label="@string/title_activity_redcross" >
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

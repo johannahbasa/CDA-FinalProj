@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#FF3232"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+        <Button
+            android:id="@+id/guidelines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Guidelines"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/firstaid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="First Aid"
+            android:textSize="10dp" />
+        
+         <Button
+            android:id="@+id/redcross"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Red Cross"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- Put image and number here -->
+            
+              <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:src="@drawable/volc" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        
+
+            <TextView
+                android:id="@+id/eq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BEFORE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+<TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/beq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Be prepared to  evacuate to higher ground at a moment's notice with your emergence kit."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/beq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Buy a battery or hand-crank radio."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                  android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AFTER"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+			
+             <TextView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Stay away from volcaninc ashfall areas."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                  android:textSize="20dp"/>
+            
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+           
+            
+            <TextView
+                android:id="@+id/beq6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHEN OUTSIDE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+             <TextView
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Keep your mouth and nose covered and wear long-sleeved shirts and pants to protext against ash irritation. Also wear googles or glasses too protect your eyes."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Clear roofs of ashfall. It is very heavy and can cause buildings to collapse."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+            
+			 <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Stay indoors until local health officials advise it is safe to go outside."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+           
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Do NOT seek shelter in a hallway or bthroom of a home"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you have access to a study shelter, abandor your home and go there imediately"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DURING"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+             <TextView
+        android:id="@+id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. If you are caught outdoors, seek shelter in a basement, shelter or sturdy building"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+           
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. If you cannot quickly waklk to a shelter, immediately get into a vehicle and try ro drive to theslosest sturdy shelter."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stay away from bridge/highway overpasses."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+            	android:textSize="20dp"/>
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DURING- IN A CAR"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+             <TextView
+        android:id="@+id/line6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If strong winds and flying debris occur while you are driving, pull over and park, keeping your seat belts on and engine running. "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AFTER"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+        android:id="@+id/line7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue listening to local news."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If away from home, return only when authorities say it safe to do so."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+            	 android:textSize="20dp" />
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you smell gas or hear a blowing or hissing noise, open a window, get everyone out of the building quickly. "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch out for fallen power lines or broken gas lines and report them to the utility immediately."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stay out damaged buildings."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            
+            <TextView
+                android:id="@+id/beq24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use battery-powered flashlights when examining. Do NOT use candles."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

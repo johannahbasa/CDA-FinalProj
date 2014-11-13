@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#FF3232"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+
+        <Button
+            android:id="@+id/guidelines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Guidelines"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/firstaid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="First Aid"
+            android:textSize="10dp" />
+        
+         <Button
+            android:id="@+id/redcross"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Red Cross"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- Put image and number here -->
+            
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:src="@drawable/fire" />
+
+               <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+          
+            <TextView
+                android:id="@+id/eq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BEFORE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/beq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Have and practice escape plans with all household members. Make sure the escape route is always kept clear, and that the door keys are easy to find"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        
+
+
+            <TextView
+                android:id="@+id/beq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Keep object at least 3 feet from any heat source"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+    
+            
+            <TextView
+                android:id="@+id/beq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Don’t smoke anywhere you may fall asleep"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+			
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+ 
+            <TextView
+                android:id="@+id/beq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DURING"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+     
+            <TextView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+            
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/beq6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. If your clothes are on fire: STOP, DROP, and ROLL"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" 
+                android:textSize="20dp"/>
+            
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+   
+            
+            <TextView
+                android:id="@+id/beq7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. If closed doors or handles are warm, use your second way out"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+             
+            
+            <TextView
+                android:id="@+id/beq7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Crawl low under smoke"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        
+            
+            
+            <TextView
+                android:id="@+id/beq8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Go to your outside meeting place and then call for help"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+      
+            
+            
+            <TextView
+                android:id="@+id/beq9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. If smoke, heat or flames block your exit route, stay in the room with doors closed. Place wet towel under the door "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+              
+      
+            
+            
+            <TextView
+                android:id="@+id/beq10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Stay there until the shaking stops, away from buildings, power lines, trees and street lights"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+     
+            
+            
+           
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
